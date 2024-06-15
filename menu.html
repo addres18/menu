@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFD700;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png');
+            background-blend-mode: multiply;
+            background-size: cover;
+            background-repeat: repeat;
+        }
+        header {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            color: #FFD700;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-image: url('image.png');
+            background-size: 80% auto;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        h2 {
+            color: #333;
+        }
+        .menu-section {
+            margin: 2rem 0;
+        }
+        .menu-section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .menu-item {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        .menu-item span {
+            display: block;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            margin-top: 2rem;
+            font-size: 0.8rem;
+        }
+        footer p {
+            color: #FFD700;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
+        footer span {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yuju's Restaurant</h1>
+    </header>
+    <div class="container">
+        <section class="menu-section">
+            <h2>Entradas</h2>
+            <div class="menu-item">
+                <strong>Ensalada César</strong>
+                <span>Lechuga romana, queso parmesano, crutones y aderezo César - $5.99</span>
+            </div>
+            <div class="menu-item">
+                <strong>Sopa de Tomate</strong>
+                <span>Sopa cremosa de tomate con albahaca y crema - $4.99</span>
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>Platos Principales</h2>
+            <div class="menu-item">
+                <strong>Filete de Res</strong>
+                <span>Filete de res a la parrilla con puré de papas y vegetales - $15.99</span>
+            </div>
+            <div class="menu-item">
+                <strong>Pasta Alfredo</strong>
+                <span>Pasta fetuccini con salsa Alfredo y pollo a la parrilla - $12.99</span>
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>Postres</h2>
+            <div class="menu-item">
+                <strong>Tiramisú</strong>
+                <span>Capas de bizcocho empapadas en café y crema de mascarpone - $6.99</span>
+            </div>
+            <div class="menu-item">
+                <strong>Helado de Vainilla</strong>
+                <span>Helado de vainilla con sirope de chocolate y nueces - $4.99</span>
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>Bebidas</h2>
+            <div class="menu-item">
+                <strong>Refresco</strong>
+                <span>Variedad de refrescos - $1.99</span>
+            </div>
+            <div class="menu-item">
+                <strong>Café</strong>
+                <span>Café americano o expreso - $2.49</span>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Yuju's Restaurant</p>
+        <span>&copy; 2024 Menú del Restaurante. Todos los derechos reservados.</span>
+    </footer>
+</body>
+</html>
